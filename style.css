@@ -1,0 +1,46 @@
+
+.topBox{
+    height: 80px;
+    border: 1px solid black;
+    max-height: 125px;
+    margin:50px 10px 10px;
+    border-radius: 30px;
+
+}
+.centerBox{
+    margin-left: 300px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 23px;
+}
+
+.dButtons{
+    float: left;
+    text-align: center;
+    
+}
+.btnSettings{
+    margin-left: 30px;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    background-color: aqua;
+    color: white;
+}
+.btnSettings:hover{
+    height: 33px;
+    width: 155px;
+    transition: width 0.5s,height 0.5s;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #000
+}
+.icon2{
+    width: 80px;
+    display: inline;
+}
+.icon{
+    float: left;
+}
